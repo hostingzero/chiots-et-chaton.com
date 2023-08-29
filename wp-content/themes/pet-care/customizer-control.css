@@ -1,0 +1,8 @@
+
+ul#sub-accordion-panel-pet_business_front_page_panel #accordion-section-pet_business_about_section {
+    display: none !important;
+}
+
+li#accordion-section-pet_business_contact_section {
+    display: none !important;
+}

@@ -1,0 +1,344 @@
+/**
+Theme Name: Pet Care
+Theme URI: https://themepalace.com/downloads/pet-care/
+Author: themepalace
+Author URI: https://themepalace.com
+Version: 1.0.1
+Requires PHP: 5.6
+Tested up to: 5.8
+Requires at least: 5.0
+Template: pet-business
+Text Domain: pet-care
+Description: Pet Care ( Child theme of Pet Business ) is a modern, versatile, resourceful, fresh, and eye-catching pet WordPress theme for the animal care center, pet house, dog washing, dog grooming center, animal care center, pet shop, veterinary doctor, animal health consultant, etc. It is very code-light, making it quick to load, and has a pleasingly clean look that is ideal for pet shop or pet services websites. It comes with many editing options so that you can customize them to your specific requirements by logos, backgrounds, and of course adding photos of your favorite animals!. This theme is responsive, cross-browser compatible, and translation-ready.
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, editor-style, right-sidebar, full-width-template, two-columns, grid-layout, custom-colors, custom-header, custom-logo, featured-image-header, blog, portfolio, entertainment
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*Header Menu*/
+
+.menu-item a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+svg.icon-search, 
+svg.icon-close,
+.main-navigation svg.icon-down {
+    fill: #ffffff;
+}
+#masthead .menu-item .sub-menu a {
+    color: #333;    
+}
+
+#masthead {
+    background-color: #e5e5ff;
+}
+
+/*--------------------------------------------------------------
+# Featured Slider Section
+--------------------------------------------------------------*/
+
+#featured-slider article .entry-container .entry-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 62px;
+    margin: 0 0 7px;
+}
+.slick-prev, 
+.slick-next {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#featured-slider:hover .slick-prev {
+    left: 10px;
+}
+#featured-slider:hover .slick-next {
+    right: 10px;
+}
+
+#featured-slider article{
+    padding: 400px 0 230px 0;
+}
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+#about-us {
+    background-color: transparent;
+    padding-bottom: 60px;
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+#our-services{
+    background-color: #e5e5ff;
+}
+#our-services article {
+    cursor: pointer;
+}
+.services-wrapper {
+    border: 1px solid #333;
+    padding: 30px 20px;
+     -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#our-services article:hover .services-wrapper {
+    border-color: #ff8737;
+}
+#our-services .featured-image {
+    margin-bottom: 0;
+}
+#our-services .featured-image a {
+    color: #000;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 65px;
+}
+#our-services .featured-image a:hover,
+#our-services .featured-image a:focus {
+    color: #ff8737;
+}
+
+/*--------------------------------------------------------------
+# Testimonial
+--------------------------------------------------------------*/
+#client-testimonial article .entry-content {
+    border-radius: 50px;
+}
+
+#shop-products .products .post-thumbnail {
+    margin-bottom: 0;
+}
+#shop-products .entry-container {
+    background-color: #e5e5ff;
+    padding: 20px;
+}
+#shop-products .button.product_type_simple.add_to_cart_button {
+    line-height: 1;
+}
+
+/*--------------------------------------------------------------
+# Client
+--------------------------------------------------------------*/
+#client-testimonial article {
+    padding: 0 15px;
+}
+/*--------------------------------------------------------------
+# Counter
+--------------------------------------------------------------*/
+#counter {
+    background-attachment: fixed;
+}
+#counter .overlay {
+       background-color: rgba(9, 42, 73, 0.8);
+}
+/*--------------------------------------------------------------
+# Our Team
+--------------------------------------------------------------*/
+#our-team article .featured-image img {
+    border-radius: 0;
+    width: auto;
+    height: auto;
+}
+
+#our-team {
+    background-color: #e5e5ff;
+}
+
+/*--------------------------------------------------------------
+# Latest Posts
+--------------------------------------------------------------*/
+#latest-posts {
+    padding-bottom: 0;
+}
+#latest-posts .featured-image {
+    margin-bottom: 0px;
+}
+#latest-posts .posts-wrapper .featured-image img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#latest-posts .entry-container {
+    background-color: #e5e5ff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#latest-posts .entry-meta {
+    padding: 0;
+}
+button.dropdown-toggle {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff8737;
+    border: none;
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    margin: 5px;
+    border-radius: 0;
+}
+.menu-toggle:hover,
+.menu-toggle:focus {
+    background-color: #ff8737;
+    border-color: #ff8737;
+}
+.menu-toggle:hover svg,
+.menu-toggle:focus svg {
+    fill: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.site-title,
+.contact-info a,
+.contact-info .location,
+.main-navigation a,
+.reply a,
+.btn,
+.more-link a,
+#subscribe-now button[type="submit"],
+.wp-travel-search p label {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 1023px) {
+    .site-branding {
+        float: left;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        min-height: 100px;
+    }
+    #masthead .wrapper {
+         position: static; 
+    }
+    .main-navigation {
+        position: static;
+        display: block;
+    }
+    .menu-toggle {
+        border-radius: 5px;
+        font-size: 16px;
+        display: block;
+        position: relative;
+        background-color: transparent;
+        border: none;
+        padding: 10px 25px;
+        margin: 25px 0;
+        min-width: 135px;
+        min-height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+    .menu-toggle svg.icon-menu {
+        margin-top: 0;
+    }
+    #masthead.site-header .main-navigation ul.nav-menu {
+        margin-top: 0;
+        position: absolute;
+        top: 100%;
+        left: auto;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+    .main-navigation a {
+        border-bottom: 1px solid #eee;
+    }
+    .main-navigation form.search-form input {
+        background-color: #fff;
+        border: none;
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #masthead {
+        position: absolute;
+        background: #e5e5ff14;
+        
+    }
+    .slick-prev,
+    #featured-slider:hover .slick-prev,
+    .project-slider .slick-prev {
+        left: 50px;
+    }
+    .slick-next,
+    #featured-slider:hover .slick-next,
+    .project-slider .slick-next {
+        right: 50px;
+    }
+    .menu-item a {
+        color: #fff;
+    }
+    button.dropdown-toggle {
+        display: none;
+    }
+    #about-us {
+        padding-bottom: 80px;
+    }
+}
+@media screen and (min-width: 1900px) {
+    #about-us {
+        padding-bottom: 115px;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .menu-toggle svg.icon-close {
+        width: 16px;
+        height: 16px;
+        position: relative;
+        top: 0px;
+    }
+
+    #masthead {
+        padding-top: 0 10px;
+    }
+}

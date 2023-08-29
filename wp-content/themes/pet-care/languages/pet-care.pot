@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-22 16:04+0545\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:53
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:205
+msgid "--Select--"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Click here to select icon"
+msgstr ""
+
+#: inc/customizer.php:151
+msgid "Button Label"
+msgstr ""
+
+#: inc/customizer.php:178 inc/customizer.php:227 inc/customizer.php:345
+#: inc/customizer.php:389
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer.php:208
+#, php-format
+msgid "Select Icon %d"
+msgstr ""
+
+#: inc/customizer.php:251
+msgid "Product"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Product Section options."
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Product Section Enable"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Our Lattest Products"
+msgstr ""
+
+#: inc/customizer.php:276 inc/customizer.php:436
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:295 inc/customizer.php:456
+msgid "A cultural icon is a person or artifact that is recognized by members"
+msgstr ""
+
+#: inc/customizer.php:301 inc/customizer.php:461
+msgid "Sub title"
+msgstr ""
+
+#: inc/customizer.php:326
+#, php-format
+msgid "Select Product %d"
+msgstr ""
+
+#: inc/customizer.php:371
+#, php-format
+msgid "Social %d"
+msgstr ""
+
+#: inc/customizer.php:372
+msgid "Add social."
+msgstr ""
+
+#: inc/customizer.php:411
+msgid "Client"
+msgstr ""
+
+#: inc/customizer.php:412
+msgid "Client Section options."
+msgstr ""
+
+#: inc/customizer.php:423
+msgid "Client Section Enable"
+msgstr ""
+
+#: inc/customizer.php:431
+msgid "Our Main Clients"
+msgstr ""
+
+#: inc/customizer.php:485
+#, php-format
+msgid "Image %d"
+msgstr ""
+
+#: inc/customizer.php:496
+#, php-format
+msgid "Link %d"
+msgstr ""
